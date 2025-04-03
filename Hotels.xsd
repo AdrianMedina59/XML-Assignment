@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://adrianmedina59.github.io/XML-Assignment/Hotels.xml" targetNamespace="https://adrianmedina59.github.io/XML-Assignment/Hotels.xml>
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Hotel" maxOccurs="unbounded" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element type="xs:string" maxOccurs="unbounded" minOccurs="1" name="Phone"/>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:int" name="Number"/>
+                    <xs:element type="xs:string" name="Street"/>
+                    <xs:element type="xs:string" name="City"/>
+                    <xs:element type="xs:string" name="State"/>
+                    <xs:element type="xs:int" name="Zip"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" use="required" name="NearstAirport"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:float" use= "optional"  name="Rating"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

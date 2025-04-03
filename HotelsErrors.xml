@@ -1,0 +1,122 @@
+<Hotel>
+<!--Hotel 1 -->
+<Hotel Rating="4.2">
+<Name>Westin</Name>
+	<Phone>480-968-8885</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+</Hotel>
+<!--Hotel 2 -->
+<Hotel Rating="4.4">
+<Name>Hampton Inn</Name>
+	
+		<Address>
+			<Number>20768</Number>
+			<Street>E. Maya Rd</Street>
+			<City>Queen Creek</City>
+			<State>AZ</State>
+			<Zip>85142</Zip>
+		
+</Hotel>
+<!--Hotel 3 -->
+<Hotel>
+<Name>Hampton Inn</Name>
+	<Phone>480-812-0900</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>1</Number>
+			<Street>N San Marcos PI</Street>
+			<City>Chandler</City>
+			<State>AZ</State>
+			<Zip>85225</Zip>
+		</Address>
+</Hotel>
+<!--Hotel 4 -->
+<Hotel Rating="3.3">
+<Name>WoodSpring Suites</Name>
+	<Phone>623-387-8977</Phone>
+		<Address NearstAirport="Mesa Gateway">
+			<Number>7650</Number>
+			<Street>S Power Rd</Street>
+			<City>Gilbert</City>
+			<State>AZ</State>
+			<Zip>85297</Zip>
+		</Address>
+</Hotel>
+<!--Hotel 5 -->
+<Hotel>
+<Name>Hyatt Place</Name>
+	<Phone>480-899-5900</Phone>
+		<Address NearstAirport="Mesa Gateway">
+			<Number>3275</Number>
+			<Street>S Market St</Street>
+			<City>Gilbert</City>
+			<State>AZ</State>
+			<Zip>85297</Zip>
+		</Address>
+</Hotel>
+<!--Hotel 6 -->
+<Hotel Rating="4.1">
+<Name>Tru</Name>
+	<Phone>620-567-9800</Phone>
+		<Address NearstAirport="Mesa Gateway">
+			<Number>1950</Number>
+			<Street>S Santan Village Pkwy</Street>
+			<City>Gilbert</City>
+			<State>AZ</State>
+			<Zip>85295</Zip>
+		</Address>
+</Hotel>
+<!--Hotel 7 -->
+<Hotel>
+<Name>Holiday Inn Express</Name>
+	<Phone>480-507-3000</Phone>
+		<Address NearstAirport="Mesa Gateway">
+			<Number>5530</Number>
+			<Street>S Power Rd</Street>
+			<City>Gilbert</City>
+			<State>AZ</State>
+			<Zip>85295</Zip>
+		</Address>
+</Hotel>
+<!--Hotel 8 -->
+<Hotel Rating="4.9">
+<Name>Everhome Suites</Name>
+	<Phone>480-409-9447</Phone>
+		<Address NearstAirport= "Sky Harbor">
+			<Number>3200</Number>
+			<Street>W Willis Rd</Street>
+			<City>Chandler</City>
+			<State>AZ</State>
+			<Zip>85286</Zip>
+		</Address>
+</Hotel>
+<!--Hotel 9 -->
+<Hotel>
+<Name>DoubleTree</Name>
+	<Phone>480-809-4100</Phone>
+		<Address NearstAirport= "Mesa Gateway">
+			<Number>1800</Number>
+			<Street>S Santan Village Pkwy</Street>
+			<City>Gilbert</City>
+			<State>AZ</State>
+			<Zip>85295</Zip>
+		</Address>
+</Hotel>
+<!--Hotel 10 -->
+<Hotel Rating="4.3">
+<Name>Home2 Suites</Name>
+	<Phone>480-857-4778</Phone>
+		<Address NearstAirport="Mesa Gateway">
+			<Number>3333</Number>
+			<Street>S Market St</Street>
+			<City>Gilbert</City>
+			<State>AZ</State>
+			<Zip>85297</Zip>
+		</Address>
+</Hotel>
+</Hotel>
